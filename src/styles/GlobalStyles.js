@@ -1,12 +1,9 @@
 import { createGlobalStyle } from 'styled-components';
-import { COLORS } from '../constants/colors';
 
 const styled = { createGlobalStyle };
 
 const GlobalStyles = styled.createGlobalStyle`
-	:root {
-		--swiper-pagination-color: ${COLORS.primary};
-	}
+
 	*,
 	*::after,
 	*::before {
