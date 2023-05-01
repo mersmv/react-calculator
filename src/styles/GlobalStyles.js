@@ -24,9 +24,8 @@ const GlobalStyles = styled.createGlobalStyle`
 		padding-left: 0;
 	}
 	body {
-		font-family: sans-serif;
 		margin: 0;
-		font-family: 'Inter', sans-serif;
+		font-family: 'Nunito Sans', sans-serif;
 	}
 	img {
 		max-width: 200px;

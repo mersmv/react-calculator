@@ -1,8 +1,9 @@
 import { StyledButton } from "./styles"
 
-const Button = ({content, value}) => {
+const Button = ({content, value, color}) => {
+    
     return(
-        <StyledButton value={value}>{content}</StyledButton>
+        <StyledButton color={color} value={value}>{content}</StyledButton>
     )
 }
 
